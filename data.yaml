@@ -1,0 +1,13 @@
+train: /content/dataset/train/images
+val: /content/dataset/valid/images
+test: /content/dataset/test/images
+
+nc: 2
+names: ['helmet', 'no-helmet']
+
+roboflow:
+  workspace: yolov5-sol2y
+  project: yolov5-hnkjh
+  version: 5
+  license: Private
+  url: https://app.roboflow.com/yolov5-sol2y/yolov5-hnkjh/5
